@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARENT LOGIN"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#4b1b1b"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="@drawable/back_to_school_3">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#49b137"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#e42828"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textSize="60sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#49b137"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/background_color_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                android:id="@+id/loginID"
+                android:layout_width="300dp"
+                android:hint="Enter phone number"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formstyle"/>
+
+            <EditText
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="15dp"
+                android:id="@+id/loginPassword"
+                android:layout_width="300dp"
+                android:hint="Enter your password"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formstyle"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_marginTop="17dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Sign In"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:background="@drawable/buttonstyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

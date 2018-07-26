@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="270dp"
+    android:orientation="vertical"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="1dp"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:background="@drawable/xml_border_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <org.atctech.parent.customs.CircularImageView
+    android:id="@+id/profile_image"
+        android:layout_marginTop="10dp"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/profile"
+    android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/name"
+        android:text="teacher name"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line_splash"/>
+
+        <Button
+            android:id="@+id/teacherDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="View Details"
+            android:textColor="#d4f433"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="?attr/selectableItemBackground"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

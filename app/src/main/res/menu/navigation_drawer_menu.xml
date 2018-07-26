@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawerHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/drawerAccount"
+            android:icon="@drawable/ic_menu_01"
+            android:title="Student Profile" />
+
+        <item
+            android:id="@+id/drawerTeacher"
+            android:icon="@drawable/ic_menu_05"
+            android:title="All Teacher" />
+
+        <item
+            android:id="@+id/courseTeacher"
+            android:icon="@drawable/ic_menu_05"
+            android:title="Course Teacher" />
+
+        <item
+            android:id="@+id/drawerResults"
+            android:icon="@drawable/ic_menu_04"
+            android:title="Student Results" />
+
+
+        <item
+            android:id="@+id/drawerTimeTable"
+            android:icon="@drawable/ic_menu_10"
+            android:title="Class Routine" />
+
+        <item
+            android:id="@+id/drawerMap"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Find Loacation" />
+
+        <item
+            android:id="@+id/alerts"
+            android:icon="@drawable/ic_settings_input_antenna_black_24dp"
+            android:title="Alerts" />
+        <item
+            android:id="@+id/drawerHoliday"
+            android:icon="@drawable/ic_menu_07"
+            android:title="Holiday" />
+
+        <item
+            android:id="@+id/drawerFees"
+            android:icon="@drawable/ic_menu_13"
+            android:title="Fees" />
+
+        <item
+            android:id="@+id/drawerSettings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/drawerContactUs"
+            android:icon="@drawable/ic_chat_bubble"
+            android:title="Contact us" />
+
+
+
+    </group>
+
+</menu>

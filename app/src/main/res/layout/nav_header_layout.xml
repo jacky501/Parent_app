@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#C2185B">
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/drawer_header"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/ass"-->
+            <!--android:scaleType="center"-->
+            <!--android:alpha=".3" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingEnd="0dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_vertical"
+            android:paddingRight="0dp"
+            android:paddingLeft="15dp">
+
+            <!--<org.atctech.parent.customs.CircularImageView-->
+                <!--android:id="@+id/drawer_profile_image"-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:src="@drawable/profile"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--app:border_width="1dp"-->
+                <!--app:border_overlay="true"-->
+                <!--app:border_color="@color/white" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:padding="10dp"-->
+                <!--android:gravity="center_vertical">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/drawer_profile_welcome"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/welcome"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:textColor="#FFF" />-->
+
+                <!--<TextView-->
+                    <!--android:text="Rashedul Haque"-->
+                    <!--android:id="@+id/drawer_profile_name"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="#e7dc07" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/drawer_profile_email"-->
+                    <!--android:text="alamjacky334@gmail.com"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="13sp"-->
+                    <!--android:textColor="#FFF" />-->
+
+            <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parent No: "
+                    android:layout_marginRight="5dp"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:fontFamily="cursive" />
+
+                <TextView
+                    android:id="@+id/parentPhoneNo"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="01767244792"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:fontFamily="cursive"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/logoutBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="logout"
+                    android:textColor="#FFF"
+                    android:layout_marginRight="5dp"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:background="@drawable/button_style_color"/>
+
+                <Button
+                    android:id="@+id/changePassBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change Password"
+                    android:textColor="#FFF"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:background="@drawable/button_style_color_green"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

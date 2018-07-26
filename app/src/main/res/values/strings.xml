@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SMS-PARENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="actionSearch"> SEARCH </string>
+    <string name="actionLanguage"> LANGUAGE </string>
+    <string name="welcome"> Welcome </string>
+    <string name="drawerOpen"> DrawerOpen </string>
+    <string name="drawerClose"> DrawerClose </string>
+    <string name="news_event"><![CDATA[News & Event]]></string>
+    <string name="base_url_api">https://esrattanisha85.000webhostapp.com/sms/api/parent/</string>
+    <string name="errPassword">Password must be at least 4 characters</string>
+    <string name="errConPassword">Password did not match</string>
+</resources>

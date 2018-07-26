@@ -1,0 +1,231 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="org.atctech.parent.fragments.HomeFragment">
+
+    <!--<com.github.mikephil.charting.charts.BarChart-->
+        <!--android:layout_marginTop="10dp"-->
+    <!--android:id="@+id/barChart"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="220dp"/>-->
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/dashboard_color_background">
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp">
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_colorful_shape_01">
+
+                            <ImageView
+                                android:src="@drawable/location_icon"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:layout_gravity="center"
+                                android:background="@android:color/transparent"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="gps tracking"
+                            android:textAllCaps="true"
+                            android:textColor="#FFF"
+                            android:textSize="17sp"
+                            android:layout_marginTop="40dp"
+                            android:typeface="serif"/>
+
+                        <TextView
+                            android:fontFamily="cursive"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In our app you can find your child current location through our app."
+                            android:textColor="#FFF"
+                            android:gravity="center_horizontal"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Second Item -->
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chat"
+                            android:textAllCaps="true"
+                            android:textColor="#FFF"
+                            android:textSize="17sp"
+                            android:layout_marginTop="40dp"
+                            android:typeface="serif"/>
+
+                        <TextView
+                            android:fontFamily="casual"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="In our app you can find your child current location through our app."
+                            android:textColor="#FFF"
+                            android:gravity="center_horizontal"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="170dp"
+                            android:layout_height="170dp">
+
+                            <LinearLayout
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/circle_colorful_shape_02">
+
+                                <ImageView
+                                    android:src="@drawable/sms_icon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    android:layout_gravity="center"
+                                    android:background="@android:color/transparent"/>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Third Item -->
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="170dp">
+
+                        <LinearLayout
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/circle_colorful_shape_01">
+
+                            <ImageView
+                                android:src="@drawable/chat_icon"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:layout_gravity="center"
+                                android:background="@android:color/transparent"/>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sms geolocation"
+                            android:textAllCaps="true"
+                            android:textColor="#FFF"
+                            android:textSize="17sp"
+                            android:layout_marginTop="40dp"
+                            android:typeface="serif"/>
+
+                        <TextView
+                            android:fontFamily="sans-serif-condensed"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In our app you can find your child current location through our app."
+                            android:textColor="#FFF"
+                            android:gravity="center_horizontal"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/messageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="25dp"
+            android:src="@drawable/ic_add_black_24dp"
+            app:fabSize="normal" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>
